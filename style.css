@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fbfbfb;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #c9e6f3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 800px;
+}
+
+h1 {
+    margin: 0 0 15px;
+    display: inline-block;
+    border-bottom: 3px solid black;
+    padding-bottom: 5px;
+}
+
+.task-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.task-input label {
+    font-weight: bold;
+}
+
+.task-input input {
+    flex: 1;
+    padding: 5px;
+    margin: 0 10px;
+    border: 1px solid #e0edf9;
+    border-radius: 4px;
+}
+
+.task-input button {
+    background-color:#7ec4e4;;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.filter-tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.filter-tabs .tab {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.filter-tabs .active {
+    text-decoration: underline;
+}
+
+.filter-tabs button {
+    background-color: #7ec4e4;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px solid #888;
+}
+
+.task-counter {
+    margin-top: 15px;
+}
+.completed-task {
+    text-decoration: line-through;
+    color: gray;
+}
+.delete-btn {
+    background-color: #7ec4e4;
+}
